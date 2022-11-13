@@ -13,9 +13,6 @@ load_dotenv(find_dotenv())
 opts = Options()
 opts.add_experimental_option("debuggerAddress", "localhost:9250")
 
-# Wait for five seconds
-time.sleep(5)
-
 # Chrome Driver setup
 driver = webdriver.Chrome(os.getenv('CHROME_DRIVER_PATH'), options=opts)
 
