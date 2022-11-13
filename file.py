@@ -19,6 +19,9 @@ driver = webdriver.Chrome(os.getenv('CHROME_DRIVER_PATH'), options=opts)
 # Open Google Slides link
 driver.get(os.getenv('GOOGLE_SLIDES_URL'))
 
+# Wait for five seconds
+time.sleep(5)
+
 # create action chain object
 action = ActionChains(driver)
 
