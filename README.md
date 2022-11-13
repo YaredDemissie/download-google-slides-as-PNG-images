@@ -1,16 +1,16 @@
 # download-google-slides-as-PNG-images
 
 ## Motivation
-This code is intended to facilitate the process of downloading Google Slides as PNG images. Since users can modify Google slide quality, it's possible to capture high-resolution images in various formats. In addition, downloading multiple slides can be a tedious process and this code automates this task. Since the program connects to an existing Chrome browser, users can use the Google Slides account saved on their machine.
+This code is intended to facilitate the process of downloading Google Slides as PNG images. Since users can modify the pixels for a Google slide, it's possible to capture high-resolution images in various formats. In addition, downloading multiple slides can be a tedious process and this code can automate the task. Since the program connects to an existing Chrome browser, users can use the Google Slides account saved on their machine.
 
 ## Build Status
-At the moment this code runs without any bugs as long as the proper setting are enabled on Google Chrome. 
+At the moment this code runs without any bugs as long as the proper setting are enabled on Google Chrome **(Auto-download should be enabled on Chrome and Google Slides needs to have permission to download multiple files. This can be set in the settings or when the dialog box appears when running the code)**
 
 ## Tech/Framework used
 Python 3.10.6 
 
 ## Features
-The code is able to connect to an existing Chrome browser and download Google Slides as PNG images from the link provided. **Auto-download should be enabled on Chrome and Google Slides needs to have permission to download multiple files. This can be set in the settings or when the dialog box appears when running the code**
+The code is able to connect to an existing Chrome browser and download Google Slides as PNG images from the link provided. 
 
 ## How to Use?
 1. Install Python 3
